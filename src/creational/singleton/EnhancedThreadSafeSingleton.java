@@ -7,7 +7,7 @@ public class EnhancedThreadSafeSingleton {
 
     }
 
-    public static synchronized EnhancedThreadSafeSingleton getInstance() {
+    public static EnhancedThreadSafeSingleton getInstance() {
 
         if (instance ==  null){
             synchronized (EnhancedThreadSafeSingleton.class){
