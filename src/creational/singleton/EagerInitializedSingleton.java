@@ -1,4 +1,4 @@
-package singleton;
+package creational.singleton;
 
 public class EagerInitializedSingleton {
 
@@ -11,5 +11,4 @@ public class EagerInitializedSingleton {
     public static EagerInitializedSingleton getInstance() {
         return instance;
     }
-
 }
