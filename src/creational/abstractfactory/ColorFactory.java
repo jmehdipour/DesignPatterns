@@ -2,6 +2,7 @@ package creational.abstractfactory;
 
 public class ColorFactory extends AbstractFactory {
 
+    @Override
     public Color getColor(String colorType){
         
         if("Red".equalsIgnoreCase(colorType)){
@@ -14,6 +15,11 @@ public class ColorFactory extends AbstractFactory {
             return null;
         }
 
+    }
+
+    @Override
+    public Vehicle getVehicle(String vehicleType) {
+        return null;
     }
 
 }
