@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FactoryTest",
+            "request": "launch",
+            "mainClass": "creational.factory.FactoryTest",
+            "projectName": "DesignPatterns_ce8caae6"
+        }
+    ]
+}
