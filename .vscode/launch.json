@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PrototypePatternTest",
+            "request": "launch",
+            "mainClass": "creational.prototype.PrototypePatternTest",
+            "projectName": "DesignPatterns_ce8caae6"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - AbstractFactoryTest",
             "request": "launch",
             "mainClass": "creational.abstractfactory.AbstractFactoryTest",
